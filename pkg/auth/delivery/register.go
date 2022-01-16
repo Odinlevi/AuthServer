@@ -10,6 +10,8 @@ func RegisterHTTPAuthEndpoints(router *gin.RouterGroup, usecase auth.UseCase) {
 
 	router.POST("/sign-up", h.signUp)
 	router.POST("/sign-in", h.signIn)
+
+	router.GET("/confirm/:token", h.confirm)
 }
 
 func RegisterHTTPMessageEndpoints(router *gin.RouterGroup, usecase auth.UseCase) {

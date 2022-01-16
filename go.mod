@@ -24,4 +24,5 @@ require (
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
 	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
 	gopkg.in/ini.v1 v1.55.0 // indirect
+	github.com/google/uuid v1.3.0
 )

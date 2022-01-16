@@ -11,3 +11,9 @@ mongo:
   authCollection: "Auth"
   chatCollection: "Chat"
   messageCollection: "Message"
+
+email:
+  from: "prlab2acc@gmail.com"
+  password: "unbreakable"
+  host: "smtp.gmail.com"
+  port: "587"
