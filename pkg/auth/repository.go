@@ -8,7 +8,7 @@ import (
 )
 
 type Repository interface {
-	Insert(ctx context.Context, user *models.User) error
+	Insert(ctx context.Context, user credential.ICredential) error
 	Get(ctx context.Context, username, password string) (*models.User, error)
 
 	GetConfirmationToken(user credential.ICredential) uuid.UUID

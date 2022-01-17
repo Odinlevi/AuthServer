@@ -6,6 +6,7 @@ require (
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gin-gonic/gin v1.6.1
+	github.com/google/uuid v1.3.0
 	github.com/golang/protobuf v1.3.5 // indirect
 	github.com/klauspost/compress v1.10.3 // indirect
 	github.com/mitchellh/mapstructure v1.2.2 // indirect
@@ -24,5 +25,5 @@ require (
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
 	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
 	gopkg.in/ini.v1 v1.55.0 // indirect
-	github.com/google/uuid v1.3.0
+
 )

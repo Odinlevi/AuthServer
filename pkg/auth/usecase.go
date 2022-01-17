@@ -7,6 +7,7 @@ import (
 
 type UseCase interface {
 	SignUp(ctx context.Context, user *models.User) error
+	Confirm(ctx context.Context, token string) error
 	SignIn(ctx context.Context, user *models.User) (string, error)
 
 	Send(ctx context.Context, message *models.Message) error
